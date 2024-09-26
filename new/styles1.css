@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lobster", sans-serif;
+    background-color: aliceblue;
+    line-height: 1.6;
+  
+  }
+  
+  header {
+    background-color: rgb(204, 127, 255);
+    color: beige;
+    padding: 15px 0 15px 8rem;
+  
+  
+  }
+  
+  section {
+    margin: 20px;
+    padding: 5px 0 20px 40px;
+    background-color: rgb(196, 203, 255);
+    border: 1px solid #535bb5;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  
+  }
+  
+  section h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    color: #555;
+    font-size: 1.2 rem;
+  
+  }
+  
+  img {
+    display: block;
+    max-width: calc(100% - 60px);
+    margin: 20px auto;
+    border: #ddd;
+    padding: 10px;
+    margin: 0 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  
+  }
+  
+  footer {
+    background-color: #886c6c;
+  
+  
+  
+  }

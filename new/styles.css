@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.portfolio-container {
+    width: 400px;
+    background-color: #1d5c67;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile-card {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.title {
+    font-size: 16px;
+    color: #ff6b6b;
+    margin-bottom: 15px;
+}
+
+.bio {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+
+.contact-button {
+    display: inline-block;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+
+.contact-button:hover {
+    background-color: #663ded;
+}
+
+
+.skills-section {
+    margin-top: 20px;
+}
+
+.skills-section h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #f0f0f0;
+    color: #555;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+}
